@@ -340,4 +340,3 @@ ASALocalRun/
 healthchecksdb
 
 # DB connection string
-appsettings.json
