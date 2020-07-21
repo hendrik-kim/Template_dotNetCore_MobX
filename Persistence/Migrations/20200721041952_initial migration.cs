@@ -2,7 +2,7 @@
 
 namespace Persistence.Migrations
 {
-    public partial class InitialCreate : Migration
+    public partial class initialmigration : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -18,6 +18,21 @@ namespace Persistence.Migrations
                 {
                     table.PrimaryKey("PK_Values", x => x.Id);
                 });
+
+            migrationBuilder.InsertData(
+                table: "Values",
+                columns: new[] { "Id", "Name" },
+                values: new object[] { 1, "Value 101" });
+
+            migrationBuilder.InsertData(
+                table: "Values",
+                columns: new[] { "Id", "Name" },
+                values: new object[] { 2, "Value 102" });
+
+            migrationBuilder.InsertData(
+                table: "Values",
+                columns: new[] { "Id", "Name" },
+                values: new object[] { 3, "Value 103" });
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
