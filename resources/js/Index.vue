@@ -2,7 +2,7 @@
     <div>
         <nav class="navbar bg-white border-bottom navbar-light">
             <router-link class="navbar-brand mr-auto" :to="{ name: 'home' }"
-                >LarabelBnb</router-link
+                >LaravelBnb</router-link
             >
             <router-link class="btn nav-buttom" :to="{ name: 'example' }"
                 >2nd</router-link
@@ -12,7 +12,7 @@
             <router-view></router-view>
         </div>
     </div>
-</template> 
+</template>
 
 <script>
 export default {};

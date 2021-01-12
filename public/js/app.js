@@ -37686,7 +37686,7 @@ var render = function() {
             staticClass: "navbar-brand mr-auto",
             attrs: { to: { name: "home" } }
           },
-          [_vm._v("LarabelBnb")]
+          [_vm._v("LaravelBnb")]
         ),
         _vm._v(" "),
         _c(
